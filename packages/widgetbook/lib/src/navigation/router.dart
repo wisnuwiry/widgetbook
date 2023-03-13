@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
-import 'package:widgetbook/src/extensions/enum_extension.dart';
-import 'package:widgetbook/src/navigation/preview_provider.dart';
-import 'package:widgetbook/src/widgetbook_page.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/src/extensions/enum_extension.dart';
+import 'package:widgetbook2/src/navigation/preview_provider.dart';
+import 'package:widgetbook2/src/widgetbook_page.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
 
 void refreshRoute<CustomTheme>(
   GoRouter router, {
@@ -78,7 +78,7 @@ GoRouter createRouter<CustomTheme>({
   required PreviewProvider previewProvider,
 }) {
   final router = GoRouter(
-    redirect: (routerState) {
+    redirect: (context, routerState) {
       final theme = routerState.queryParams['theme'];
       final locale = routerState.queryParams['locale'];
       final device = routerState.queryParams['device'];

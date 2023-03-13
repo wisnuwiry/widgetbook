@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/workbench/comparison_handle.dart';
-import 'package:widgetbook/src/workbench/comparison_setting.dart';
-import 'package:widgetbook/src/workbench/selection_item.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/src/workbench/comparison_handle.dart';
+import 'package:widgetbook2/src/workbench/comparison_setting.dart';
+import 'package:widgetbook2/src/workbench/selection_item.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
 
 class LocalizationHandle<CustomTheme> extends StatelessWidget {
   const LocalizationHandle({
-    Key? key,
-  }) : super(
-          key: key,
-        );
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

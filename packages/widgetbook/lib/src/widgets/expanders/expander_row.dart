@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/models/organizers/organizers.dart';
-
-import 'package:widgetbook/src/widgets/expanders/expand_button.dart';
+import 'package:widgetbook2/src/models/organizers/organizers.dart';
+import 'package:widgetbook2/src/widgets/expanders/expand_button.dart';
 
 class ExpanderRow extends StatelessWidget {
   const ExpanderRow({
-    Key? key,
+    super.key,
     this.size,
     required this.organizers,
-  }) : super(key: key);
+  });
 
   factory ExpanderRow.large({
     Key? key,

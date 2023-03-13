@@ -1,8 +1,8 @@
-import 'package:widgetbook/src/models/models.dart';
-import 'package:widgetbook/src/navigation/preview_state.dart';
-import 'package:widgetbook/src/repositories/selected_story_repository.dart';
-import 'package:widgetbook/src/repositories/story_repository.dart';
-import 'package:widgetbook/src/state_change_notifier.dart';
+import 'package:widgetbook2/src/models/models.dart';
+import 'package:widgetbook2/src/navigation/preview_state.dart';
+import 'package:widgetbook2/src/repositories/selected_story_repository.dart';
+import 'package:widgetbook2/src/repositories/story_repository.dart';
+import 'package:widgetbook2/src/state_change_notifier.dart';
 
 class PreviewProvider extends StateChangeNotifier<PreviewState> {
   PreviewProvider({

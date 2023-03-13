@@ -1,16 +1,16 @@
-import 'package:widgetbook/src/models/models.dart';
-import 'package:widgetbook/src/models/organizers/organizer_helper/organizer_helper.dart';
-import 'package:widgetbook/src/navigation/organizer_state.dart';
-import 'package:widgetbook/src/repositories/story_repository.dart';
-import 'package:widgetbook/src/services/filter_service.dart';
-import 'package:widgetbook/src/state_change_notifier.dart';
+import 'package:widgetbook2/src/models/models.dart';
+import 'package:widgetbook2/src/models/organizers/organizer_helper/organizer_helper.dart';
+import 'package:widgetbook2/src/navigation/organizer_state.dart';
+import 'package:widgetbook2/src/repositories/story_repository.dart';
+import 'package:widgetbook2/src/services/filter_service.dart';
+import 'package:widgetbook2/src/state_change_notifier.dart';
 
 class OrganizerProvider extends StateChangeNotifier<OrganizerState> {
   OrganizerProvider({
-    required OrganizerState state,
+    required super.state,
     required this.storyRepository,
     this.filterService = const FilterService(),
-  }) : super(state: state);
+  });
 
   final StoryRepository storyRepository;
   final FilterService filterService;

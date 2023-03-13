@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 Matcher expectAssertionErrorWithMessage({
   required String message,

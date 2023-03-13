@@ -1,4 +1,4 @@
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 /// helper to obtain all WidgetElements in the navigation tree.
 class WidgetHelper {

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/localization/localization_provider.dart';
-import 'package:widgetbook/src/localization/localization_state.dart';
-import 'package:widgetbook/src/navigation/preview_provider.dart';
-import 'package:widgetbook/src/workbench/comparison_setting.dart';
-import 'package:widgetbook/src/workbench/renderer.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
-import 'package:widgetbook/src/workbench/workbench_state.dart';
+import 'package:widgetbook2/src/localization/localization_provider.dart';
+import 'package:widgetbook2/src/localization/localization_state.dart';
+import 'package:widgetbook2/src/navigation/preview_provider.dart';
+import 'package:widgetbook2/src/workbench/comparison_setting.dart';
+import 'package:widgetbook2/src/workbench/renderer.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/src/workbench/workbench_state.dart';
 
 class ComparisonRenderer<CustomTheme> extends StatelessWidget {
-  const ComparisonRenderer({Key? key}) : super(key: key);
+  const ComparisonRenderer({super.key});
 
   Widget _buildThemeComparison({
     required WorkbenchState<CustomTheme> workbenchState,

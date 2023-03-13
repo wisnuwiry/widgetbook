@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/workbench/comparison_handle.dart';
-import 'package:widgetbook/src/workbench/comparison_setting.dart';
-import 'package:widgetbook/src/workbench/selection_item.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/workbench/comparison_handle.dart';
+import 'package:widgetbook2/src/workbench/comparison_setting.dart';
+import 'package:widgetbook2/src/workbench/selection_item.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 class DeviceHandle<CustomTheme> extends StatelessWidget {
-  const DeviceHandle({Key? key}) : super(key: key);
+  const DeviceHandle({super.key});
 
   @override
   Widget build(

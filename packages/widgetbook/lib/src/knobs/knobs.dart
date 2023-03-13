@@ -1,15 +1,15 @@
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/knobs/bool_knob.dart';
-import 'package:widgetbook/src/knobs/knobs_builder.dart';
-import 'package:widgetbook/src/knobs/nullable_checkbox.dart';
-import 'package:widgetbook/src/knobs/number_knob.dart';
-import 'package:widgetbook/src/knobs/options_knob.dart';
-import 'package:widgetbook/src/knobs/slider_knob.dart';
-import 'package:widgetbook/src/knobs/text_knob.dart';
-import 'package:widgetbook/src/repositories/selected_story_repository.dart';
-import 'package:widgetbook/src/utils/styles.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/knobs/bool_knob.dart';
+import 'package:widgetbook2/src/knobs/knobs_builder.dart';
+import 'package:widgetbook2/src/knobs/nullable_checkbox.dart';
+import 'package:widgetbook2/src/knobs/number_knob.dart';
+import 'package:widgetbook2/src/knobs/options_knob.dart';
+import 'package:widgetbook2/src/knobs/slider_knob.dart';
+import 'package:widgetbook2/src/knobs/text_knob.dart';
+import 'package:widgetbook2/src/repositories/selected_story_repository.dart';
+import 'package:widgetbook2/src/utils/styles.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 /// This allows stories to have dynamically adjustable parameters.
 abstract class Knob<T> {
@@ -237,8 +237,8 @@ class KnobWrapper extends StatelessWidget {
     required this.description,
     required this.title,
     this.nullableCheckbox,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   final Widget child;
   final String? description;

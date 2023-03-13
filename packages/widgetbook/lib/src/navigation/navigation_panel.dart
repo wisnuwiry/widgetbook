@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/app_info/app_info.dart';
-import 'package:widgetbook/src/constants/radii.dart';
-import 'package:widgetbook/src/models/organizers/organizers.dart';
-import 'package:widgetbook/src/widgets/expanders/expander_row.dart';
-import 'package:widgetbook/src/widgets/header.dart';
-import 'package:widgetbook/src/widgets/search_bar.dart';
-import 'package:widgetbook/src/widgets/tiles/category_tile.dart';
+import 'package:widgetbook2/src/app_info/app_info.dart';
+import 'package:widgetbook2/src/constants/radii.dart';
+import 'package:widgetbook2/src/models/organizers/organizers.dart';
+import 'package:widgetbook2/src/widgets/expanders/expander_row.dart';
+import 'package:widgetbook2/src/widgets/header.dart';
+import 'package:widgetbook2/src/widgets/search_bar.dart';
+import 'package:widgetbook2/src/widgets/tiles/category_tile.dart';
 
 class NavigationPanel extends StatefulWidget {
   const NavigationPanel({
-    Key? key,
+    super.key,
     required this.appInfo,
     required this.categories,
-  }) : super(key: key);
+  });
 
   final AppInfo appInfo;
   final List<WidgetbookCategory> categories;

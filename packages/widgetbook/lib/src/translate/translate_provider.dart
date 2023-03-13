@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/state_change_notifier.dart';
-import 'package:widgetbook/src/translate/translate_state.dart';
+import 'package:widgetbook2/src/state_change_notifier.dart';
+import 'package:widgetbook2/src/translate/translate_state.dart';
 
 /// A provider handling [Offset] translation to a previewed device or
 /// collection.

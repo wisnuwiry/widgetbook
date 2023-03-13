@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/translate/translate_provider.dart';
-import 'package:widgetbook/src/utils/extensions.dart';
-import 'package:widgetbook/src/workbench/workbench_button.dart';
+import 'package:widgetbook2/src/translate/translate_provider.dart';
+import 'package:widgetbook2/src/utils/extensions.dart';
+import 'package:widgetbook2/src/workbench/workbench_button.dart';
 
 class TranslateHandle extends StatelessWidget {
   const TranslateHandle({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class TranslateHandle extends StatelessWidget {
             ),
             Text(
               state.offset.dx.toStringAsFixed(1),
-              style: context.theme.textTheme.subtitle2!.copyWith(
+              style: context.theme.textTheme.titleSmall!.copyWith(
                 fontSize: 20,
               ),
             ),
@@ -35,7 +35,7 @@ class TranslateHandle extends StatelessWidget {
             ),
             Text(
               state.offset.dy.toStringAsFixed(1),
-              style: context.theme.textTheme.subtitle2!.copyWith(
+              style: context.theme.textTheme.titleSmall!.copyWith(
                 fontSize: 20,
               ),
             ),

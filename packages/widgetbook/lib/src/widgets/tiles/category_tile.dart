@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/models/organizers/organizers.dart';
-import 'package:widgetbook/src/navigation/organizer_provider.dart';
-import 'package:widgetbook/src/widgets/tiles/spaced_tile.dart';
-import 'package:widgetbook/src/widgets/tiles/tile_helper_methods.dart';
+import 'package:widgetbook2/src/models/organizers/organizers.dart';
+import 'package:widgetbook2/src/navigation/organizer_provider.dart';
+import 'package:widgetbook2/src/widgets/tiles/spaced_tile.dart';
+import 'package:widgetbook2/src/widgets/tiles/tile_helper_methods.dart';
 
 class CategoryTile extends StatelessWidget {
-  const CategoryTile({Key? key, required this.category}) : super(key: key);
+  const CategoryTile({super.key, required this.category});
 
   final WidgetbookCategory category;
 

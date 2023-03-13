@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/mouse_tool/tool_provider.dart';
-import 'package:widgetbook/src/mouse_tool/tool_state.dart';
-import 'package:widgetbook/src/utils/styles.dart';
-import 'package:widgetbook/src/workbench/workbench_button.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_provider.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_state.dart';
+import 'package:widgetbook2/src/utils/styles.dart';
+import 'package:widgetbook2/src/workbench/workbench_button.dart';
 
 class MouseHandle extends StatelessWidget {
   const MouseHandle({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

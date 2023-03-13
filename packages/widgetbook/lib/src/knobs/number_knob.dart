@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/knobs/knobs.dart';
-import 'package:widgetbook/src/knobs/nullable_checkbox.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/knobs/nullable_checkbox.dart';
 
 class NumberKnob extends Knob<num> {
   NumberKnob({
-    required String label,
-    String? description,
-    required num value,
-  }) : super(
-          label: label,
-          description: description,
-          value: value,
-        );
+    required super.label,
+    super.description,
+    required super.value,
+  });
 
   @override
   Widget build() => NumberKnobWidget(
@@ -26,14 +22,10 @@ class NumberKnob extends Knob<num> {
 
 class NullableNumberKnob extends Knob<num?> {
   NullableNumberKnob({
-    required String label,
-    String? description,
-    required num? value,
-  }) : super(
-          label: label,
-          description: description,
-          value: value,
-        );
+    required super.label,
+    super.description,
+    required super.value,
+  });
 
   @override
   Widget build() => NumberKnobWidget(
@@ -47,12 +39,12 @@ class NullableNumberKnob extends Knob<num?> {
 
 class NumberKnobWidget extends StatefulWidget {
   const NumberKnobWidget({
-    Key? key,
+    super.key,
     required this.label,
     required this.description,
     required this.value,
     this.nullable = false,
-  }) : super(key: key);
+  });
 
   final String label;
   final String? description;

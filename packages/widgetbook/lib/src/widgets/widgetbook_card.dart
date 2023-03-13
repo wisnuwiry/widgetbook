@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/constants/radii.dart';
+import 'package:widgetbook2/src/constants/radii.dart';
 
 class WidgetbookCard extends StatelessWidget {
   const WidgetbookCard({
-    Key? key,
+    super.key,
     required this.child,
-  }) : super(key: key);
+  });
 
   final Widget child;
 

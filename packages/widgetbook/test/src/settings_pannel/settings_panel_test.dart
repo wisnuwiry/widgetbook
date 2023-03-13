@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/knobs/knobs.dart';
-import 'package:widgetbook/src/repositories/selected_story_repository.dart';
-import 'package:widgetbook/src/settings_panel/settings_panel.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/repositories/selected_story_repository.dart';
+import 'package:widgetbook2/src/settings_panel/settings_panel.dart';
 
 import '../../helper/widget_test_helper.dart';
 

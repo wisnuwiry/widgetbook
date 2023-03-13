@@ -8,8 +8,8 @@ class GeneratedOutput {
     this.output,
   )   : error = null,
         stackTrace = null,
-        assert(output.isNotEmpty),
-        assert(output.length == output.trim().length);
+        assert(output.isNotEmpty, ''),
+        assert(output.length == output.trim().length, '');
 
   GeneratedOutput.fromError(
     this.generator,

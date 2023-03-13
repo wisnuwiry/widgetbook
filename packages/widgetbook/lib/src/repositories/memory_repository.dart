@@ -3,8 +3,8 @@ import 'dart:async';
 import 'dart:collection';
 
 import 'package:meta/meta.dart';
-import 'package:widgetbook/src/models/model.dart';
-import 'package:widgetbook/src/repositories/repository.dart';
+import 'package:widgetbook2/src/models/model.dart';
+import 'package:widgetbook2/src/repositories/repository.dart';
 
 class MemoryRepository<Item extends Model> extends Repository<Item> {
   MemoryRepository({Map<String, Item>? initialConfiguration})

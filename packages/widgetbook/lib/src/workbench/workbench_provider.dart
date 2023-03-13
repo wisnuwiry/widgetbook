@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/extensions/enum_extension.dart';
-import 'package:widgetbook/src/extensions/list_extension.dart';
-import 'package:widgetbook/src/state_change_notifier.dart';
-import 'package:widgetbook/src/workbench/comparison_setting.dart';
-import 'package:widgetbook/src/workbench/workbench_state.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/extensions/enum_extension.dart';
+import 'package:widgetbook2/src/extensions/list_extension.dart';
+import 'package:widgetbook2/src/state_change_notifier.dart';
+import 'package:widgetbook2/src/workbench/comparison_setting.dart';
+import 'package:widgetbook2/src/workbench/workbench_state.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 class WorkbenchProvider<CustomTheme>
     extends StateChangeNotifier<WorkbenchState<CustomTheme>> {

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/theming/widgetbook_theme.dart';
-import 'package:widgetbook/src/workbench/comparison_handle.dart';
-import 'package:widgetbook/src/workbench/comparison_setting.dart';
-import 'package:widgetbook/src/workbench/selection_item.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/src/theming/widgetbook_theme.dart';
+import 'package:widgetbook2/src/workbench/comparison_handle.dart';
+import 'package:widgetbook2/src/workbench/comparison_setting.dart';
+import 'package:widgetbook2/src/workbench/selection_item.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
 
 class ThemeHandle<CustomTheme> extends StatelessWidget {
   const ThemeHandle({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

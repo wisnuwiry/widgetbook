@@ -57,7 +57,7 @@ class WidgetbookGenerator extends GeneratorForAnnotation<WidgetbookApp> {
     final appBuilder = await _loadDataFromJson<WidgetbookAppBuilderData>(
       buildStep,
       '**.appbuilder.widgetbook.json',
-      (json) => WidgetbookAppBuilderData.fromJson(json),
+      WidgetbookAppBuilderData.fromJson,
     );
 
     final scaffoldBuilder =

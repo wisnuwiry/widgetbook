@@ -1,4 +1,4 @@
-import 'package:widgetbook/src/models/models.dart';
+import 'package:widgetbook2/src/models/models.dart';
 
 class FilterService {
   const FilterService();

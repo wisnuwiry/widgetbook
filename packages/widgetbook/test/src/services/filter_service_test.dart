@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetbook/src/models/models.dart';
-import 'package:widgetbook/src/services/filter_service.dart';
+import 'package:widgetbook2/src/models/models.dart';
+import 'package:widgetbook2/src/services/filter_service.dart';
 
 void main() {
   final story1 = WidgetbookUseCase(

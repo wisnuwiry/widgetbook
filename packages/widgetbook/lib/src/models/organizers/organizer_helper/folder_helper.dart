@@ -1,4 +1,4 @@
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 /// Helper to navigate the folder tree.
 class FolderHelper {

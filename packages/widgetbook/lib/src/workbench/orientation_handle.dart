@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/extensions/enum_extension.dart';
-import 'package:widgetbook/src/workbench/selection_handle.dart';
-import 'package:widgetbook/src/workbench/selection_item.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/src/extensions/enum_extension.dart';
+import 'package:widgetbook2/src/workbench/selection_handle.dart';
+import 'package:widgetbook2/src/workbench/selection_item.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
 
 class OrientationHandle<CustomTheme> extends StatelessWidget {
-  const OrientationHandle({Key? key}) : super(key: key);
+  const OrientationHandle({super.key});
 
   @override
   Widget build(BuildContext context) {

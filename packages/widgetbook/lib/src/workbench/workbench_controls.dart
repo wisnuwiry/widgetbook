@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/constants/constants.dart';
-import 'package:widgetbook/src/mouse_tool/mouse_handle.dart';
-import 'package:widgetbook/src/translate/translate_handle.dart';
-import 'package:widgetbook/src/zoom/zoom_handle.dart';
+import 'package:widgetbook2/src/constants/constants.dart';
+import 'package:widgetbook2/src/mouse_tool/mouse_handle.dart';
+import 'package:widgetbook2/src/translate/translate_handle.dart';
+import 'package:widgetbook2/src/zoom/zoom_handle.dart';
 
 class WorkbenchControls<CustomTheme> extends StatelessWidget {
-  const WorkbenchControls({Key? key}) : super(key: key);
+  const WorkbenchControls({super.key});
 
   @override
   Widget build(BuildContext context) {

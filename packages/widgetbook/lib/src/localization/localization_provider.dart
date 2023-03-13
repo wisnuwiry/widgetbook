@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/localization/localization_state.dart';
-import 'package:widgetbook/src/state_change_notifier.dart';
+import 'package:widgetbook2/src/localization/localization_state.dart';
+import 'package:widgetbook2/src/state_change_notifier.dart';
 
 class LocalizationProvider extends StateChangeNotifier<LocalizationState> {
   LocalizationProvider({

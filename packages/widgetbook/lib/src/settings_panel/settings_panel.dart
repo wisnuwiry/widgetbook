@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/constants/constants.dart';
-import 'package:widgetbook/src/constants/radii.dart';
-import 'package:widgetbook/src/knobs/knobs_panel.dart';
-import 'package:widgetbook/src/properties/property_panel.dart';
+import 'package:widgetbook2/src/constants/constants.dart';
+import 'package:widgetbook2/src/constants/radii.dart';
+import 'package:widgetbook2/src/knobs/knobs_panel.dart';
+import 'package:widgetbook2/src/properties/property_panel.dart';
 
 class SettingsPanel<CustomTheme> extends StatelessWidget {
   const SettingsPanel({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

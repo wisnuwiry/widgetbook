@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 DeviceInfo mapDeviceToDeviceInfo(Device device) {
   final map = {

@@ -1,18 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
 
 class OptionsKnob<T> extends Knob<T> {
   OptionsKnob({
-    required String label,
-    String? description,
-    required T value,
+    required super.label,
+    super.description,
+    required super.value,
     required this.options,
-  }) : super(
-          label: label,
-          description: description,
-          value: value,
-        );
+  });
 
   final List<Option<T>> options;
 
@@ -28,12 +24,12 @@ class OptionsKnob<T> extends Knob<T> {
 
 class OptionsKnobWidget<T> extends StatelessWidget {
   const OptionsKnobWidget({
-    Key? key,
+    super.key,
     required this.label,
     required this.description,
     required this.value,
     required this.options,
-  }) : super(key: key);
+  });
 
   final String label;
   final String? description;

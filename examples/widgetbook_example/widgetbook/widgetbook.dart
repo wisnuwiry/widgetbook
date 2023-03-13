@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 import 'package:widgetbook_example/models/meal.dart';
 import 'package:widgetbook_example/themes/dark_theme.dart';
 import 'package:widgetbook_example/themes/light_theme.dart';

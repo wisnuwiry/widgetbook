@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/utils/extensions.dart';
-import 'package:widgetbook/src/workbench/workbench_button.dart';
-import 'package:widgetbook/src/zoom/zoom_provider.dart';
+import 'package:widgetbook2/src/utils/extensions.dart';
+import 'package:widgetbook2/src/workbench/workbench_button.dart';
+import 'package:widgetbook2/src/zoom/zoom_provider.dart';
 
 class ZoomHandle extends StatelessWidget {
   const ZoomHandle({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class ZoomHandle extends StatelessWidget {
               width: 50,
               child: Text(
                 state.zoomLevel.toStringAsFixed(2),
-                style: context.theme.textTheme.subtitle2!.copyWith(
+                style: context.theme.textTheme.titleSmall!.copyWith(
                   fontSize: 20,
                 ),
               ),

@@ -1,5 +1,5 @@
-import 'package:widgetbook/src/mouse_tool/tool_state.dart';
-import 'package:widgetbook/src/state_change_notifier.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_state.dart';
+import 'package:widgetbook2/src/state_change_notifier.dart';
 
 /// [ToolProvider] defines a bunch of mouse related tools.
 ///

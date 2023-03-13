@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/app_info/app_info_provider.dart';
-import 'package:widgetbook/src/navigation/navigation_panel.dart';
-import 'package:widgetbook/src/navigation/organizer_provider.dart';
-import 'package:widgetbook/src/settings_panel/settings_panel.dart';
-import 'package:widgetbook/src/styled_widgets/styled_scaffold.dart';
-import 'package:widgetbook/src/widgets/multi_split_view.dart';
-import 'package:widgetbook/src/workbench/workbench.dart';
+import 'package:widgetbook2/src/app_info/app_info_provider.dart';
+import 'package:widgetbook2/src/navigation/navigation_panel.dart';
+import 'package:widgetbook2/src/navigation/organizer_provider.dart';
+import 'package:widgetbook2/src/settings_panel/settings_panel.dart';
+import 'package:widgetbook2/src/styled_widgets/styled_scaffold.dart';
+import 'package:widgetbook2/src/widgets/multi_split_view.dart';
+import 'package:widgetbook2/src/workbench/workbench.dart';
 
 class WidgetbookPage<CustomTheme> extends StatelessWidget {
   const WidgetbookPage({
-    Key? key,
+    super.key,
     required this.disableNavigation,
     required this.disableProperties,
-  }) : super(key: key);
+  });
 
   final bool disableNavigation;
   final bool disableProperties;

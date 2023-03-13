@@ -1,6 +1,7 @@
-## 2.4.0-beta.2
+## 2.4.2
 
-- Added parameter `disable-navigation` and `disable-properties` to router.
+- Rollback theme and addons
+- Update several dependencies
 
 ## 2.3.0 
 

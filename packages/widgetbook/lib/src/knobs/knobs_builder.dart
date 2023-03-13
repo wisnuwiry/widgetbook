@@ -1,4 +1,4 @@
-import 'package:widgetbook/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
 
 abstract class KnobsBuilder {
   const KnobsBuilder();

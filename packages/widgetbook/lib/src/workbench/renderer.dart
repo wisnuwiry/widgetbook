@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/rendering/rendering_provider.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/rendering/rendering_provider.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 class Renderer<CustomTheme> extends StatelessWidget {
   const Renderer({
-    Key? key,
+    super.key,
     required this.device,
     required this.locale,
     required this.localizationsDelegates,
@@ -15,7 +15,7 @@ class Renderer<CustomTheme> extends StatelessWidget {
     required this.textScaleFactor,
     required this.orientation,
     required this.useCaseBuilder,
-  }) : super(key: key);
+  });
 
   final Device device;
   final Locale locale;

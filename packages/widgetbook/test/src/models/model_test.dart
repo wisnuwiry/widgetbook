@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetbook/src/models/model.dart';
+import 'package:widgetbook2/src/models/model.dart';
 
 void main() {
   group(

@@ -17,7 +17,7 @@ String generateImports(
 
   set
     ..add('package:flutter/material.dart')
-    ..add('package:widgetbook/widgetbook.dart')
+    ..add('package:widgetbook2/widgetbook2.dart')
     ..remove('package:widgetbook_annotation/widgetbook_annotation.dart');
 
   return set.map(_generateImportStatement).join('\n');

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class TileSpacer extends StatelessWidget {
   const TileSpacer({
-    Key? key,
+    super.key,
     required this.level,
-  }) : super(key: key);
+  });
 
   final int level;
 

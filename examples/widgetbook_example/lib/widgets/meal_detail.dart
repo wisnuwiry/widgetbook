@@ -35,7 +35,7 @@ class MealDetail extends StatelessWidget {
           ),
           Text(
             meal.title,
-            style: Theme.of(context).textTheme.headline4,
+            style: Theme.of(context).textTheme.headlineMedium,
             textAlign: TextAlign.center,
           ),
           SizedBox(

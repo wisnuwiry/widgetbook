@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/navigation/organizer_provider.dart';
-import 'package:widgetbook/src/navigation/organizer_state.dart';
-import 'package:widgetbook/src/repositories/story_repository.dart';
-import 'package:widgetbook/src/widgets/search_bar.dart';
+import 'package:widgetbook2/src/navigation/organizer_provider.dart';
+import 'package:widgetbook2/src/navigation/organizer_state.dart';
+import 'package:widgetbook2/src/repositories/story_repository.dart';
+import 'package:widgetbook2/src/widgets/search_bar.dart';
 
 import '../../helper/widget_test_helper.dart';
 

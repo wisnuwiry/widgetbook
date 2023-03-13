@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:widgetbook/src/models/models.dart';
-import 'package:widgetbook/src/navigation/organizer_provider.dart';
-import 'package:widgetbook/src/navigation/organizer_state.dart';
-import 'package:widgetbook/src/repositories/story_repository.dart';
-import 'package:widgetbook/src/services/filter_service.dart';
+import 'package:widgetbook2/src/models/models.dart';
+import 'package:widgetbook2/src/navigation/organizer_provider.dart';
+import 'package:widgetbook2/src/navigation/organizer_state.dart';
+import 'package:widgetbook2/src/repositories/story_repository.dart';
+import 'package:widgetbook2/src/services/filter_service.dart';
 
 import '../../mocks/filter_service_mock.dart';
 

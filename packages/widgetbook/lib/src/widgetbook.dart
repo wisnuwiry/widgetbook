@@ -2,25 +2,25 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/app_info/app_info.dart';
-import 'package:widgetbook/src/app_info/app_info_provider.dart';
-import 'package:widgetbook/src/extensions/list_extension.dart';
-import 'package:widgetbook/src/knobs/knobs.dart';
-import 'package:widgetbook/src/localization/localization_provider.dart';
-import 'package:widgetbook/src/models/organizers/organizers.dart';
-import 'package:widgetbook/src/mouse_tool/tool_provider.dart';
-import 'package:widgetbook/src/navigation/organizer_provider.dart';
-import 'package:widgetbook/src/navigation/organizer_state.dart';
-import 'package:widgetbook/src/navigation/preview_provider.dart';
-import 'package:widgetbook/src/navigation/router.dart';
-import 'package:widgetbook/src/rendering/rendering.dart';
-import 'package:widgetbook/src/repositories/selected_story_repository.dart';
-import 'package:widgetbook/src/repositories/story_repository.dart';
-import 'package:widgetbook/src/theming/widgetbook_theme.dart';
-import 'package:widgetbook/src/translate/translate_provider.dart';
-import 'package:widgetbook/src/utils/styles.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
-import 'package:widgetbook/src/zoom/zoom_provider.dart';
+import 'package:widgetbook2/src/app_info/app_info.dart';
+import 'package:widgetbook2/src/app_info/app_info_provider.dart';
+import 'package:widgetbook2/src/extensions/list_extension.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/localization/localization_provider.dart';
+import 'package:widgetbook2/src/models/organizers/organizers.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_provider.dart';
+import 'package:widgetbook2/src/navigation/organizer_provider.dart';
+import 'package:widgetbook2/src/navigation/organizer_state.dart';
+import 'package:widgetbook2/src/navigation/preview_provider.dart';
+import 'package:widgetbook2/src/navigation/router.dart';
+import 'package:widgetbook2/src/rendering/rendering.dart';
+import 'package:widgetbook2/src/repositories/selected_story_repository.dart';
+import 'package:widgetbook2/src/repositories/story_repository.dart';
+import 'package:widgetbook2/src/theming/widgetbook_theme.dart';
+import 'package:widgetbook2/src/translate/translate_provider.dart';
+import 'package:widgetbook2/src/utils/styles.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/src/zoom/zoom_provider.dart';
 import 'package:widgetbook_models/widgetbook_models.dart';
 
 /// Describes the configuration for your [Widget] library.
@@ -83,7 +83,7 @@ class Widgetbook<CustomTheme> extends StatefulWidget {
   /// rendered. This can be used to wrap each use case with a specifiy widget,
   /// e.g. [Center].
   const Widgetbook({
-    Key? key,
+    super.key,
     required this.categories,
     List<Device>? devices,
     required this.appInfo,
@@ -147,8 +147,7 @@ class Widgetbook<CustomTheme> extends StatefulWidget {
               Apple.iPhone11,
               Apple.iPhone12,
               Samsung.s21ultra,
-            ],
-        super(key: key);
+            ];
 
   /// Categories which host Folders and WidgetElements.
   /// This can be used to organize the structure of the Widgetbook on a large

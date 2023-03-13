@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/constants/radii.dart';
-import 'package:widgetbook/src/navigation/preview_provider.dart';
-import 'package:widgetbook/src/utils/utils.dart';
-import 'package:widgetbook/src/widgets/expanders/expander_row.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/constants/radii.dart';
+import 'package:widgetbook2/src/navigation/preview_provider.dart';
+import 'package:widgetbook2/src/utils/utils.dart';
+import 'package:widgetbook2/src/widgets/expanders/expander_row.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 class Tile extends StatefulWidget {
   const Tile({
-    Key? key,
+    super.key,
     required this.iconData,
     required this.iconColor,
     required this.organizer,
     this.onClicked,
-  }) : super(key: key);
+  });
 
   final IconData iconData;
   final Color iconColor;

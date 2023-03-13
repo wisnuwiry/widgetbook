@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:widgetbook/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
 
 /// The panel containing the knobs for a usecase
 class KnobsPanel extends StatelessWidget {
   const KnobsPanel({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

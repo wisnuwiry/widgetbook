@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/models/organizers/organizers.dart';
-import 'package:widgetbook/src/widgets/tiles/folder_tile.dart';
-import 'package:widgetbook/src/widgets/tiles/widget_tile.dart';
+import 'package:widgetbook2/src/models/organizers/organizers.dart';
+import 'package:widgetbook2/src/widgets/tiles/folder_tile.dart';
+import 'package:widgetbook2/src/widgets/tiles/widget_tile.dart';
 
 List<Widget> buildFolders({
   required List<WidgetbookFolder> folders,

@@ -10,7 +10,7 @@ class Typography {
   );
 
   static TextTheme textTheme = const TextTheme(
-    subtitle1: subtitle1,
-    subtitle2: subtitle2,
+    titleMedium: subtitle1,
+    titleSmall: subtitle2,
   );
 }

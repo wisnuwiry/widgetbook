@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetbook/src/translate/translate_provider.dart';
-import 'package:widgetbook/src/translate/translate_state.dart';
+import 'package:widgetbook2/src/translate/translate_provider.dart';
+import 'package:widgetbook2/src/translate/translate_state.dart';
 
 void main() {
   const offset = Offset(1, 1);

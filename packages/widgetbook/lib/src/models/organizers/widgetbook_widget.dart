@@ -1,16 +1,13 @@
 import 'package:collection/collection.dart';
-import 'package:widgetbook/src/models/organizers/organizers.dart';
+import 'package:widgetbook2/src/models/organizers/organizers.dart';
 
 ///
 class WidgetbookComponent extends ExpandableOrganizer {
   WidgetbookComponent({
-    required String name,
+    required super.name,
     required this.useCases,
-    bool isExpanded = false,
-  }) : super(
-          name: name,
-          isExpanded: isExpanded,
-        ) {
+    super.isExpanded = false,
+  }) {
     for (final state in useCases) {
       state.parent = this;
     }

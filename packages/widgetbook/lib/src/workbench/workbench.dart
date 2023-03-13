@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/constants/radii.dart';
-import 'package:widgetbook/src/navigation/preview_provider.dart';
-import 'package:widgetbook/src/utils/utils.dart';
-import 'package:widgetbook/src/workbench/preview.dart';
-import 'package:widgetbook/src/workbench/workbench_controls.dart';
+import 'package:widgetbook2/src/constants/radii.dart';
+import 'package:widgetbook2/src/navigation/preview_provider.dart';
+import 'package:widgetbook2/src/utils/utils.dart';
+import 'package:widgetbook2/src/workbench/preview.dart';
+import 'package:widgetbook2/src/workbench/workbench_controls.dart';
 
 class Workbench<CustomTheme> extends StatelessWidget {
   const Workbench({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

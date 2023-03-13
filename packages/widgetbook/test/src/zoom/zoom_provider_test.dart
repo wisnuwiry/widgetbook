@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetbook/src/zoom/zoom_provider.dart';
-import 'package:widgetbook/src/zoom/zoom_state.dart';
+import 'package:widgetbook2/src/zoom/zoom_provider.dart';
+import 'package:widgetbook2/src/zoom/zoom_state.dart';
 
 void main() {
   group(

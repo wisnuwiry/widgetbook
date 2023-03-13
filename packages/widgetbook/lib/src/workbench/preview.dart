@@ -1,18 +1,18 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/mouse_tool/tool_provider.dart';
-import 'package:widgetbook/src/mouse_tool/tool_state.dart';
-import 'package:widgetbook/src/translate/translate_provider.dart';
-import 'package:widgetbook/src/workbench/comparison_renderer.dart';
-import 'package:widgetbook/src/zoom/zoom_provider.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_provider.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_state.dart';
+import 'package:widgetbook2/src/translate/translate_provider.dart';
+import 'package:widgetbook2/src/workbench/comparison_renderer.dart';
+import 'package:widgetbook2/src/zoom/zoom_provider.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 class Preview<CustomTheme> extends StatelessWidget {
   const Preview({
-    Key? key,
+    super.key,
     required this.useCase,
-  }) : super(key: key);
+  });
 
   final WidgetbookUseCase useCase;
 

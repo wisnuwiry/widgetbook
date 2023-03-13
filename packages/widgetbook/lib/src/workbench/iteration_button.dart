@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/utils/extensions.dart';
-import 'package:widgetbook/src/workbench/workbench_button.dart';
+import 'package:widgetbook2/src/utils/extensions.dart';
+import 'package:widgetbook2/src/workbench/workbench_button.dart';
 
 /// A button with a chevron indicating some sort of iteration within a
 /// collection of Workbench settings.
@@ -10,10 +10,9 @@ import 'package:widgetbook/src/workbench/workbench_button.dart';
 /// - [IterationButton.next] for selecting the next setting.
 class IterationButton extends StatelessWidget {
   const IterationButton._({
-    Key? key,
     required this.onPressed,
     required this.iconData,
-  }) : super(key: key);
+  });
 
   factory IterationButton.previous({
     required VoidCallback onPressed,

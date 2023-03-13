@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/app_info/app_info.dart';
-import 'package:widgetbook/src/constants/constants.dart';
+import 'package:widgetbook2/src/app_info/app_info.dart';
+import 'package:widgetbook2/src/constants/constants.dart';
 
 class Header extends StatelessWidget {
   const Header({
-    Key? key,
+    super.key,
     required this.appInfo,
-  }) : super(key: key);
+  });
 
   final AppInfo appInfo;
 
@@ -21,7 +21,7 @@ class Header extends StatelessWidget {
         alignment: Alignment.centerLeft,
         child: Text(
           appInfo.name,
-          style: Theme.of(context).textTheme.headline6!.copyWith(
+          style: Theme.of(context).textTheme.titleLarge!.copyWith(
                 fontWeight: FontWeight.bold,
               ),
         ),

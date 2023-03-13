@@ -1,5 +1,5 @@
-import 'package:widgetbook/src/state_change_notifier.dart';
-import 'package:widgetbook/src/zoom/zoom_state.dart';
+import 'package:widgetbook2/src/state_change_notifier.dart';
+import 'package:widgetbook2/src/zoom/zoom_state.dart';
 
 /// Allows zooming in and out of a device preview
 class ZoomProvider extends StateChangeNotifier<ZoomState> {

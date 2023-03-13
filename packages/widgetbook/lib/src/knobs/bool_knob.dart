@@ -1,19 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/knobs/knobs.dart';
-import 'package:widgetbook/src/knobs/nullable_checkbox.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/knobs/nullable_checkbox.dart';
 
 class BoolKnob extends Knob<bool> {
   BoolKnob({
-    required String label,
-    String? description,
-    required bool value,
-  }) : super(
-          label: label,
-          description: description,
-          value: value,
-        );
+    required super.label,
+    super.description,
+    required super.value,
+  });
 
   @override
   Widget build() => BooleanKnobWidget(
@@ -26,14 +22,10 @@ class BoolKnob extends Knob<bool> {
 
 class NullableBoolKnob extends Knob<bool?> {
   NullableBoolKnob({
-    required String label,
-    String? description,
-    required bool? value,
-  }) : super(
-          label: label,
-          description: description,
-          value: value,
-        );
+    required super.label,
+    super.description,
+    required super.value,
+  });
 
   @override
   Widget build() => BooleanKnobWidget(
@@ -47,12 +39,12 @@ class NullableBoolKnob extends Knob<bool?> {
 
 class BooleanKnobWidget extends StatefulWidget {
   const BooleanKnobWidget({
-    Key? key,
+    super.key,
     required this.label,
     required this.description,
     required this.value,
     this.nullable = false,
-  }) : super(key: key);
+  });
 
   final String label;
   final String? description;

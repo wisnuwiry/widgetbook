@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/models/organizers/organizer.dart';
-import 'package:widgetbook/src/widgets/tiles/tile.dart';
-import 'package:widgetbook/src/widgets/tiles/tile_spacer.dart';
+import 'package:widgetbook2/src/models/organizers/organizer.dart';
+import 'package:widgetbook2/src/widgets/tiles/tile.dart';
+import 'package:widgetbook2/src/widgets/tiles/tile_spacer.dart';
 
 class SpacedTile extends StatelessWidget {
   const SpacedTile({
-    Key? key,
+    super.key,
     required this.organizer,
     required this.level,
     required this.iconData,
     required this.iconColor,
     this.onClicked,
-  }) : super(key: key);
+  });
 
   final int level;
   final Organizer organizer;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/constants/radii.dart';
+import 'package:widgetbook2/src/constants/radii.dart';
 
 class Styles {
   static const Color storyColor = Color(0xFF6C6A71);

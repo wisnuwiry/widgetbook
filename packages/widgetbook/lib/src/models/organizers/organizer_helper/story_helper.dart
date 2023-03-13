@@ -1,5 +1,5 @@
-import 'package:widgetbook/src/models/organizers/organizer_helper/organizer_helper.dart';
-import 'package:widgetbook/src/models/organizers/organizers.dart';
+import 'package:widgetbook2/src/models/organizers/organizer_helper/organizer_helper.dart';
+import 'package:widgetbook2/src/models/organizers/organizers.dart';
 
 /// Helper to obtain all Stories in the navigation tree.
 class StoryHelper {

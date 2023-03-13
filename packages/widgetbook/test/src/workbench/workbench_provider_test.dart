@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetbook/src/workbench/comparison_setting.dart';
-import 'package:widgetbook/src/workbench/workbench_provider.dart';
-import 'package:widgetbook/src/workbench/workbench_state.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/workbench/comparison_setting.dart';
+import 'package:widgetbook2/src/workbench/workbench_provider.dart';
+import 'package:widgetbook2/src/workbench/workbench_state.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 void main() {
   group(

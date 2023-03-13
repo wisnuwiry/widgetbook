@@ -1,25 +1,18 @@
-import 'package:widgetbook/src/models/organizers/expandable_organizer.dart';
-import 'package:widgetbook/src/models/organizers/widgetbook_folder.dart';
-import 'package:widgetbook/src/models/organizers/widgetbook_widget.dart';
+import 'package:widgetbook2/src/models/organizers/expandable_organizer.dart';
 
 /// Categories help to organize WidgetElements and Stories into different areas.
 // TODO would be great if this uses freezed
 class WidgetbookCategory extends ExpandableOrganizer {
   WidgetbookCategory({
-    required String name,
-    List<WidgetbookFolder>? folders,
-    List<WidgetbookComponent>? widgets,
-    bool isExpanded = true,
-  }) : super(
-          name: name,
-          folders: folders,
-          widgets: widgets,
-          isExpanded: isExpanded,
-        ) {
-    for (final ExpandableOrganizer organizer in this.folders) {
+    required super.name,
+    super.folders,
+    super.widgets,
+    super.isExpanded = true,
+  }) {
+    for (final ExpandableOrganizer organizer in folders) {
       organizer.parent = this;
     }
-    for (final ExpandableOrganizer organizer in this.widgets) {
+    for (final ExpandableOrganizer organizer in widgets) {
       organizer.parent = this;
     }
   }

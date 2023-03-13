@@ -21,3 +21,7 @@ Widgetbook is a flutter package which helps developers cataloguing their widgets
 </p>
 
 # See [docs.widgetbook.io](https://docs.widgetbook.io/widgetbook/overview) for docs & samples
+
+## Notes
+
+This dependency was originally from [Widgetbook](https://pub.dev/packages/widgetbook), but with this widget many other dependencies were blocked due to lack of maintenance for version 2. Meanwhile, version 3 is still unstable and has lots of bugs.

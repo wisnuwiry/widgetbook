@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:widgetbook/src/models/models.dart';
+import 'package:widgetbook2/src/models/models.dart';
 
 part 'organizer_state.freezed.dart';
 

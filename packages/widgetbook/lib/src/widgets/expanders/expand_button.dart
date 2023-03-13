@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetbook/src/navigation/organizer_provider.dart';
-import 'package:widgetbook/widgetbook.dart';
+import 'package:widgetbook2/src/navigation/organizer_provider.dart';
+import 'package:widgetbook2/widgetbook2.dart';
 
 class ExpandButton extends StatefulWidget {
   const ExpandButton({
-    Key? key,
+    super.key,
     required this.organizers,
     required this.expandTo,
     this.size = 17,
-  }) : super(key: key);
+  });
 
   final List<ExpandableOrganizer> organizers;
   final bool expandTo;

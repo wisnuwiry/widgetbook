@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'package:widgetbook/src/models/model.dart';
-import 'package:widgetbook/src/models/organizers/organizer.dart';
+import 'package:widgetbook2/src/models/model.dart';
+import 'package:widgetbook2/src/models/organizers/organizer.dart';
 
 /// UseCases represent a specific configuration of a widget and can be used
 /// to check edge cases of a Widget.

@@ -1,4 +1,4 @@
-import 'package:widgetbook/src/models/model.dart';
+import 'package:widgetbook2/src/models/model.dart';
 
 abstract class Repository<Item extends Model> {
   // Item operations

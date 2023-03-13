@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:widgetbook/src/knobs/knobs.dart';
+import 'package:widgetbook2/src/knobs/knobs.dart';
 
 /// Checkbox used within knobs to make the returned value null
 class NullableCheckbox<T> extends StatelessWidget {
   const NullableCheckbox({
-    Key? key,
+    super.key,
     required this.cachedValue,
     required this.value,
     required this.label,
-  }) : super(key: key);
+  });
 
   /// The label of the corresponding knob
   final String label;

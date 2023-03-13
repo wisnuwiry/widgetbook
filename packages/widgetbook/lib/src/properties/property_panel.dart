@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook/src/constants/radii.dart';
-import 'package:widgetbook/src/devices/device_handle.dart';
-import 'package:widgetbook/src/localization/localization_handle.dart';
-import 'package:widgetbook/src/rendering/render_handle.dart';
-import 'package:widgetbook/src/text_scale/text_scale_handle.dart';
-import 'package:widgetbook/src/theming/theme_handle.dart';
-import 'package:widgetbook/src/workbench/orientation_handle.dart';
+import 'package:widgetbook2/src/constants/radii.dart';
+import 'package:widgetbook2/src/devices/device_handle.dart';
+import 'package:widgetbook2/src/localization/localization_handle.dart';
+import 'package:widgetbook2/src/rendering/render_handle.dart';
+import 'package:widgetbook2/src/text_scale/text_scale_handle.dart';
+import 'package:widgetbook2/src/theming/theme_handle.dart';
+import 'package:widgetbook2/src/workbench/orientation_handle.dart';
 
 class PropertyPanel<CustomTheme> extends StatelessWidget {
-  const PropertyPanel({Key? key}) : super(key: key);
+  const PropertyPanel({super.key});
 
   Widget _buildSpacing(BuildContext context) {
     return Divider(

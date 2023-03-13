@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetbook/src/mouse_tool/tool_provider.dart';
-import 'package:widgetbook/src/mouse_tool/tool_state.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_provider.dart';
+import 'package:widgetbook2/src/mouse_tool/tool_state.dart';
 
 void main() {
   group(
